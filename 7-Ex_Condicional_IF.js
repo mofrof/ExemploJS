@@ -1,11 +1,10 @@
 console.log("==INICIO==");
-
 /**
  * A instrução if permite criar diferentes fluxos de execução de acordo com
- * diferentes decições.
+ * diferentes decisões.
  * 
- * O comando if() recebe como parametro para realizar a sua decição valores
- * do tipo booleano.  
+ * O comando if() recebe como parâmetro para realizar a sua decisão valores
+ * do tipo booleano.  
  */
 
 //Ira exbir, "mensagem executada dentro do condicional",
@@ -14,7 +13,7 @@ if (true) {
     console.log("mensagem executada dentro do condicional");
 }
 
-//Não ira exibir nenhuma mensagem, pois o paramentro de decição esta 
+//Não ira exibir nenhuma mensagem, pois o parâmetro de decisão esta 
 //Marcado como false.
 if (false) {
     console.log("Essa mensagem não será exibida");
@@ -22,9 +21,9 @@ if (false) {
 
 /**
  * Podemos utilizar o comando if junto com os operadores de comparação
- * para tomar uma decição, por exemplo:
+ * para tomar uma decisão, por exemplo:
  * Se a idade de uma pessoa for maior que 18 podemos exibir maior de idade
- * caso contrario exiba menor de idade
+ * caso contrário exiba menor de idade
  */
 
 //Se o valor da idade for maior que ou igual 18 irar exibir Maior de idade
@@ -55,7 +54,7 @@ if (altura >= 1.65) {
 }
 
 /**
- * Podemos utilizar varios else if para encadear varias verificaçãoes,
+ * Podemos utilizar vários else if para encadear várias verificações,
  * cada else if só ira realizar a verificação caso a condição de cima
  * seja falsa.
  */
@@ -71,13 +70,13 @@ if (entrada == "C") {
 }
 
 /**
- * Apesar do else if, ser bastante util é inviavel realizarmos a verificação
- * de todas as possiveis possibilidades. Para solucionar este problema podemos utilizar
+ * Apesar do else if, ser bastante útil é inviável realizarmos a verificação
+ * de todas as possíveis possibilidades. Para solucionar este problema podemos utilizar
  * o comando else. em conjunto com o if ou com if e else if.
  */
 
-//Se a distancia do salto for menor que 2 metros e 90 cm então não é um novo recorde mundial
-//Caso contrario é um novo recorde mundial.
+//Se a distância do salto for menor que 2 metros e 90 cm então não é um novo recorde mundial
+//Caso contrário é um novo recorde mundial.
 let distancia = 1.5;
 
 if (distancia <= 2.9) {
@@ -86,9 +85,9 @@ if (distancia <= 2.9) {
     console.log("É um novo recorde mundial de salto a distancia");
 }
 
-//Se o veiculo for moto o imposto será de 10% do valor do veiculo.
-//Se o veiculo for carro o imposto será de 20% do valor do veiculo.
-//Caso seja qualquer outro tipo, imposto não se aplica para esse veiculo.
+//Se o veículo for moto o imposto será de 10% do valor do veículo.
+//Se o veículo for carro o imposto será de 20% do valor do veículo.
+//Caso seja qualquer outro tipo, imposto não se aplica para esse veículo.
 
 let veiculo = "caminhão";
 

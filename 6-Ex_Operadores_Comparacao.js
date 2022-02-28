@@ -1,25 +1,25 @@
 console.log("==INICIO==");
 
 /**
- * Operadores de comparação permitem realizar comparação
- * entre variaveis e retornam como resultado um valor booleano
- * true caso a comparação seja VERDADEIRA e false caso a
- * comparação seja FALSA;
- * 
- * Temos como comparadores de comparalção:
- * # "==" Igualdade
- * # ">" Maior que
- * # "<" Menor que
- * # ">=" Maior que igual
- * # "<=" Menor que igual
- * # "!=" Diferente
- * 
- * Obs.: As comparações acima realizam somente a comparação dos
- * valores não dos tipos, para realizar a comparação de tipos
- * devemos adicionar mais um "=" nas comparações anteriores:
- * 
- * Ex.: === Igualdade de valores e de tipos. 
- */
+ * Operadores de comparação permitem realizar comparação
+ * entre variáveis e retornam como resultado um valor booleano
+ * true caso a comparação seja VERDADEIRA e false caso a
+ * comparação seja FALSA;
+ * 
+ * Temos como atributos de comparação:
+ * # "==" Igualdade
+ * # ">" Maior que
+ * # "<" Menor que
+ * # ">=" Maior que igual
+ * # "<=" Menor que igual
+ * # "!=" Diferente
+ * 
+ * Obs.: As comparações acima realizam somente a comparação dos
+ * valores não dos tipos, para realizar a comparação de tipos
+ * devemos adicionar mais um "=" nas comparações anteriores:
+ * 
+ * Ex.: === Igualdade de valores e de tipos. 
+ */
 
 let numero1 = 10;
 let numero2 = 15;

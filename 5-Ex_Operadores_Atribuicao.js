@@ -1,16 +1,16 @@
 console.log("==INICIO==");
 
 /**
- * Operadores de atribição, são utilizados para atribuir valor em variaveis.
- * o simbolo "=" é o mais utilizado.
- */
-//grava o numero 10 na variavel numero;
+ * Operadores de atribuição, são utilizados para atribuir valor em variáveis.
+ * o símbolo "=" é o mais utilizado.
+ */
+//grava o número 10 na variável numero;
 let numero = 10;
 console.log(numero);
 
 /**
- * Existem operadores de atribuição que permitem incrementar
- * e decrementar o valor da variavel são eles:
+ * Existem operadores de atribuição que permitem incrementar
+ * e decrementar o valor da variável são eles:
  * ++ incremento
  * -- decremento
  */
@@ -23,7 +23,7 @@ numero3--;
 console.log(numero3);
 
 /**
- * O numero não será incrementado no momento de execução do operador,
+ * O número não será incrementado no momento de execução do operador,
  * somente depois do mesmo, segue exemplo.
  */
 let numero4 = 10;
@@ -31,15 +31,15 @@ console.log(numero4++);
 console.log(numero4);
 
 /**
- * podemos tambem simplicar operações utilizando alguns operadores de atribuição
- * como por exemplo:
- * # "+=" realiza a SOMA do valor da propia variavel mais o numero especifico
- * # "-=" realiza a SUBTRAÇÃO do valor da propia variavel mais o numero especifico
- * # "*=" realiza a MULTIPLICAÇÃO do valor da propia variavel mais o numero especifico
- * # "/=" realiza a DIVISÃO do valor da propia variavel mais o numero especifico
- * # "%=" realiza a MODULO do valor da propia variavel mais o numero especifico
- * # "**=" realiza a POTENCIAÇÃO do valor da propia variavel mais o numero especifico
- */
+ * podemos também simplificar operações utilizando alguns operadores de atribuição
+ * como por exemplo:
+ * # "+=" realiza a SOMA do valor da propiá variável mais o número específico
+ * # "-=" realiza a SUBTRAÇÃO do valor da propiá variável mais o número específico
+ * # "*=" realiza a MULTIPLICAÇÃO do valor da propiá variável mais o número específico
+ * # "/=" realiza a DIVISÃO do valor da propia variavel mais o número específico
+ * # "%=" realiza a MODULO do valor da propia variavel mais o número específico
+ * # "**=" realiza a POTENCIAÇÃO do valor da propia variavel o número específico
+ */
 
 let numero5 = 10;
 numero5 += 5;
